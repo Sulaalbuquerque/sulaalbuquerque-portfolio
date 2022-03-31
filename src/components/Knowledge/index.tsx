@@ -15,7 +15,7 @@ function Knowledge() {
         <KnowledgeItem title='HTML'icon={<AiFillHtml5/>}/>
         <KnowledgeItem title='CSS'icon={<FaCss3Alt/>}/>
         <KnowledgeItem title='JavaScript'icon={<IoLogoJavascript/>}/>
-        <KnowledgeItem title='React'icon={<FaReact/>}/>
+        {/*<KnowledgeItem title='React'icon={<FaReact/>}/> */}
       </section>
     </Container>
   );

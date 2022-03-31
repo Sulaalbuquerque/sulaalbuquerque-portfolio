@@ -25,6 +25,7 @@ export default function Projects({ projetos }: ProjetoProps) {
 
             <Head>
               <title>Projetos | Meu portfólio</title>
+
               <meta
                 name="description"
                 content="Esta página tem como objetivo trazer alguns projetos desenvolvidos por mim."

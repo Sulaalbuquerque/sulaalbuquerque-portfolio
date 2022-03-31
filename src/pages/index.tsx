@@ -38,6 +38,7 @@ export default function Home({ projetos }: HomeProps) {
 
         <Head>
           <title>Home | Meu portfólio</title>
+
           <meta
             name="description"
             content="Sou uma desenvolvedora Front-end. Esta página tem como objetivo trazer alguns projetos desenvolvidos por mim."
@@ -56,9 +57,9 @@ export default function Home({ projetos }: HomeProps) {
 
         <main className="container">
           <HomeHero/>
-          <Experiences/>
-          <Projects projetos={projetos}/>
+          {/*<Experiences/>*/}
           <Knowledge/>
+          <Projects projetos={projetos}/>
           <FormContact/>
         </main>
 
