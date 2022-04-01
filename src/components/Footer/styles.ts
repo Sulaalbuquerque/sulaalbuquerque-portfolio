@@ -21,6 +21,10 @@ export const Container = styled.footer`
       text-transform: uppercase;
       font-weight: 300;
       font-size: 1.2rem;
+      :hover{
+        color: #fff;
+        transition: 0.5s;
+      }
     }
     > section {
       display: flex;

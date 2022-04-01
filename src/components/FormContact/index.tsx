@@ -13,11 +13,11 @@ function FormContact() {
           </>
         }
         description={
-          <>
+          <div className='description'>
             Preencha o formulário abaixo e
             <br/>
             retornarei em breve.
-          </>
+          </div>
         }
       />
 

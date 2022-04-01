@@ -20,14 +20,14 @@ export const Container = styled.div<ContainerProps>`
 
     h1 {
       color: ${({ theme }) => theme.primary};
-      font-size: 3rem;
+      font-size: 2rem;
       font-weight: 400;
     }
 
     h2 {
       color: ${({ theme }) => theme.secondary};
       font-weight: 300;
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
   }
 

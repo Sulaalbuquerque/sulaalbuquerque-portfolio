@@ -15,7 +15,7 @@ export const ProjetoContainer = styled.div`
 
     p {
       color: ${({ theme }) => theme.textLight};
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       font-weight: 300;
       text-align: justify;
     }
@@ -35,7 +35,7 @@ export const ProjetoContainer = styled.div`
       a {
         color: #fff;
         text-transform: uppercase;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 300;
       }
     }

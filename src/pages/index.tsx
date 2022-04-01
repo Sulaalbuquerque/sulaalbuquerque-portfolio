@@ -13,6 +13,7 @@ import Aos from 'aos';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import Head from 'next/head';
+import Studying from '../components/Studying';
 
 interface IProjeto {
   slug: string;
@@ -51,6 +52,9 @@ export default function Home({ projetos }: HomeProps) {
             property="og:description"
             content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
           />
+
+          {/*<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/> */}
+          
         </Head>
 
         <Header/>
@@ -59,6 +63,7 @@ export default function Home({ projetos }: HomeProps) {
           <HomeHero/>
           {/*<Experiences/>*/}
           <Knowledge/>
+          <Studying/>
           <Projects projetos={projetos}/>
           <FormContact/>
         </main>

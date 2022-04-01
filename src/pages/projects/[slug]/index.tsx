@@ -37,6 +37,9 @@ export default function Projecto({ projeto }: ProjetoProps) {
         <meta name="twitter:image" content={projeto.thumbnail} />
         <meta name="twitter:image:src" content={projeto.thumbnail} />
         <meta property="og:description" content={projeto.description} />
+
+        {/*<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/> */}
+
       </Head>
 
       <Header />

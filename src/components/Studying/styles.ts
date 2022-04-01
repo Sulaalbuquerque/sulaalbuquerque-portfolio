@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
     width: 100%;
+    margin: 4rem auto;
 
     > section {
         margin-top: 8rem;
@@ -38,8 +39,8 @@ export const KnowledgeContainer = styled.div`
     }
 
     svg {
-        width: 3rem;
-        height: 3rem;
+        width: 4rem;
+        height: 4rem;
         color: ${({ theme }) => theme.secondary};
         transition: 0.3s;
     }
@@ -57,8 +58,8 @@ export const KnowledgeContainer = styled.div`
         }
         
         svg {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3rem;
+        height: 3rem;
         }
     }
 `

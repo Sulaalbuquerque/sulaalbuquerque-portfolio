@@ -38,6 +38,9 @@ export default function Projects({ projetos }: ProjetoProps) {
                 property="og:description"
                 content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
               />
+
+              {/*<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/> */}
+
             </Head>
 
             <Header/>
