@@ -50,7 +50,7 @@ export default function Home({ projetos }: HomeProps) {
           <meta name="twitter:image:src" content="/ogimage.png" />
           <meta
             property="og:description"
-            content="Sou um desenvolvedor Front-end e aqui apresento alguns projetos desenvolvidos por mim!"
+            content="Olá! Sou desenvolvedora Front-end e trago aqui alguns projetos desenvolvidos por mim."
           />
 
           {/*<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/> */}
