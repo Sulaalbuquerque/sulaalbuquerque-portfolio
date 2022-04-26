@@ -27,7 +27,7 @@ function HomeHero() {
           <CodeItem data-aos='zoom-in'>
             <span className='purple'>Cargo</span>{'\u007B'}{/*unicode*/}
             <div>
-              Função: <span className='pink'>Dev Front-end Freelancer</span>
+              Função: <span className='pink'>Dev Front-end {/*Freelancer*/}</span>
             </div>
             {/*
               <div>
