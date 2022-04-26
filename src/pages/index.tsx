@@ -42,7 +42,7 @@ export default function Home({ projetos }: HomeProps) {
 
           <meta
             name="description"
-            content="Sou uma desenvolvedora Front-end. Esta página tem como objetivo trazer alguns projetos desenvolvidos por mim."
+            content="Esta página tem como objetivo trazer alguns projetos desenvolvidos por mim."
           />
           <meta property="og:image" content="/ogimage.png" /> {/* a barra indica a pasta public*/}
           <meta property="og:image:secure_url" content="/ogimage.png" />
