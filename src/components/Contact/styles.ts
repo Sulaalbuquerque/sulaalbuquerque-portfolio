@@ -29,6 +29,10 @@ export const ContactData = styled.div`
         height: 1.5rem;
         width: 1.5rem;
       }
+
+      span{
+        font-weight: 200;
+      }
     }
   }
 
