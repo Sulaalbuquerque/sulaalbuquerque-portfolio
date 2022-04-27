@@ -37,13 +37,6 @@ export const Container = styled.section`
                 gap: 2.5rem;
             }
         }
-
-        @media (max-width: 500px) {
-
-            h2{
-                //align-items: flex-end;
-            }
-        }
     }
 `
 

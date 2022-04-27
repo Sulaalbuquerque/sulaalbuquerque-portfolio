@@ -10,10 +10,10 @@ import { Container } from './styles';
 function Knowledge() {
   return (
     <Container>
-      <SectionTitle title='Conhecimentos'/>
+      <SectionTitle title='Conhecimentos' description='Tecnologias'/>
 
       <section data-aos='fade-up'>
-        <h2>Tecnologias em aprimoramento</h2>
+        <h2>Em aprimoramento</h2>
         <div className='icons'>
           <KnowledgeItem title='HTML'icon={<AiFillHtml5/>}/>
           <KnowledgeItem title='CSS'icon={<FaCss3Alt/>}/>
@@ -23,7 +23,7 @@ function Knowledge() {
       </section>
 
       <section data-aos='fade-up'>
-       <h2>Tecnologias em estudo</h2>
+       <h2>Em estudo</h2>
        <div className='icons'>
           <KnowledgeItem title='React'icon={<FaReact/>}/>
           <KnowledgeItem title='Typescript'icon={<SiTypescript/>}/> 
