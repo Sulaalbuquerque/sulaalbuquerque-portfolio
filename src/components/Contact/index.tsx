@@ -36,12 +36,14 @@ export function Contact() {
           </a>
         </div>
 
+        {/*
         <div className="network">
           <a href='https://web.telegram.org/k/' target='_blank'>
             <FaTelegramPlane/>
             <span>+55 (88) 9 9337 7622</span>
           </a>
         </div>
+        */}
 
         <div className="network">
           <a href='https://linkedin.com/in/sula-albuquerque-659968203/' target='_blank'>
