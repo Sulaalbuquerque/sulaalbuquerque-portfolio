@@ -5,6 +5,7 @@ import Experiences from '../components/Experiences';
 import Projects from '../components/Projects';
 import Knowledge from '../components/Knowledge';
 import FormContact from '../components/FormContact';
+import { Contact } from '../components/Contact'
 import Footer from '../components/Footer';
 import { GetStaticProps } from 'next';
 import Prismic from '@prismicio/client';
@@ -13,7 +14,6 @@ import Aos from 'aos';
 import { useEffect } from 'react';
 import 'aos/dist/aos.css';
 import Head from 'next/head';
-import Studying from '../components/Studying';
 
 interface IProjeto {
   slug: string;
@@ -63,9 +63,9 @@ export default function Home({ projetos }: HomeProps) {
           <HomeHero/>
           {/*<Experiences/>*/}
           <Knowledge/>
-          <Studying/>
           <Projects projetos={projetos}/>
-          <FormContact/>
+          {/*<FormContact/>*/}
+          <Contact/>
         </main>
 
         <Footer/>

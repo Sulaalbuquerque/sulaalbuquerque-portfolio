@@ -2,23 +2,47 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
     width: 100%;
+    
 
     > section {
         margin-top: 8rem;
         width: 100%;
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 8rem;
+        gap: 4rem;
+
+        h2{
+            color: ${({ theme }) => theme.secondary};
+            font-weight: 200;
+        }
+
+        .icons{
+            display: flex;
+            flex-direction: row;
+            gap: 7rem;
+        }
 
         @media (max-width: 1000px) {
-        gap: 5rem;
+            gap: 5rem;
         }
 
         @media (max-width: 700px) {
-        gap: 3rem;
-        flex-wrap: wrap;
-        margin-top: 5rem;
+            gap: 2rem;
+            flex-wrap: wrap;
+            margin-top: 5rem;
+
+            .icons{
+                gap: 2.5rem;
+            }
+        }
+
+        @media (max-width: 500px) {
+
+            h2{
+                //align-items: flex-end;
+            }
         }
     }
 `
