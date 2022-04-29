@@ -44,7 +44,7 @@ export default function Home({ projetos }: HomeProps) {
             content="Esta página tem como objetivo trazer alguns projetos desenvolvidos por mim."
           />
           <meta property="og:image" content="/portfolio.png" /> {/* a barra indica a pasta public*/}
-          <meta property="og:image:secure_url" content="/portfolio.png" />
+          <meta property="og:image:type" content="image/png" />
           <meta name="twitter:image" content="/portfolio.png" />
           <meta name="twitter:image:src" content="/portfolio.png" />
           <meta
