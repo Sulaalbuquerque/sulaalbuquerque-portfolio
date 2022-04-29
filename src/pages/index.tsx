@@ -39,12 +39,12 @@ export default function Home({ projetos }: HomeProps) {
 
         <Head>
           <title>Home | Meu portfólio</title>
-
+          {/*
           <meta
             name="description"
             content="Esta página tem como objetivo trazer alguns projetos desenvolvidos por mim."
           />
-          <meta property="og:image" content="/ogimage.png" /> {/* a barra indica a pasta public*/}
+          <meta property="og:image" content="/ogimage.png" /> {/* a barra indica a pasta public}
           <meta property="og:image:secure_url" content="/ogimage.png" />
           <meta name="twitter:image" content="/ogimage.png" />
           <meta name="twitter:image:src" content="/ogimage.png" />
@@ -52,7 +52,7 @@ export default function Home({ projetos }: HomeProps) {
             property="og:description"
             content="Olá! Sou desenvolvedora Front-end e trago aqui alguns projetos desenvolvidos por mim."
           />
-
+          */}
           {/*<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/> */}
           
         </Head>
